@@ -1,0 +1,23 @@
+installCRDs: ENC[AES256_GCM,data:Z6NvaA==,iv:O784m79uh2x8tMd0RqHt1FdRFhyH1YFpXJP8edlc2Ug=,tag:hm1bJgh70PWcqUFuxecxnQ==,type:bool]
+prometheus:
+    enabled: ENC[AES256_GCM,data:wkKMDMo=,iv:MN65CVKi1wzhz3CAQwZbLt88U3bs2+PrdKxop4PhaAw=,tag:UR/S2+tw0Nz0+uoNwAk/wg==,type:bool]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1at6xdz4ds5srjmjl0n6dq8ltx2d2z54s8d7l9w3fus286nvd5fdquyn9aa
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoYjRLRWdWTXBlb01sVEww
+            WHFjdEYrTW9QM3FWYXpaYkpweW4yVG9LeHk4CnZWRUJ5K0Jid0h1U1Nvdm1yNHlu
+            OElMTHJZamQrNXBXV2xZcXp6eU5zVlEKLS0tIC9lTktjbjVPUEZ1QnRmYjBDK0Rz
+            S3hVRUNDSW44M0RXbWhkTGpuTytPV28KCJclWA7Q0Nhemtwq5x8IB8I68mMMszzE
+            6HssCAiDNd7F75hQS22GSYJ2QpHTWMg8gTIadAHfZ6hUVXcmTDnPZQ==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-05-30T17:47:40Z"
+    mac: ENC[AES256_GCM,data:ex+J1juh4D+BXwpJxRsYKwnuEGh+1kEGN2aapjn1bhBCfEeXpSjoOB6uPfto8XkMvCCd4xlbY2EF0r7iNmmJUZo8EFXwRcnHhXMFbskvBNJ8Hh55zuHbv6NxLwYUEK6YVAxjUW3cWaX76xY7WD1ikx5XbBRPAhRs2riUybSl9R8=,iv:KD9BalbFFW51YmKKq1NQcrq8D4IEtwYQyPOTv7iBz4A=,tag:Axj7BysqJgmV4iqafJT14A==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
